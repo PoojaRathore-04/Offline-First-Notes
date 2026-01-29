@@ -1,0 +1,85 @@
+/* Reset & base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2933;
+}
+
+/* App container */
+.app-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 16px;
+}
+
+/* Status bar */
+.status-bar {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.status-online {
+  background-color: #16a34a;
+}
+
+.status-offline {
+  background-color: #dc2626;
+}
+
+/* Note form */
+.note-form {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-form input,
+.note-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}
+
+.note-form textarea {
+  resize: none;
+}
+
+.note-form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.note-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Notes list */
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Individual note card */
+.note-card {
+  background-color: #ffffff;
+  padding: 16px;
